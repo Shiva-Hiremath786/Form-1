@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercise 1</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="contact-us">
+        <h3>Advertising Estimate</h3>
+        <form id="contact-us" method="get">
+          <input
+            type="text"
+            name="name"
+            id="name"
+            maxlength="10"
+            placeholder="Your name"
+          />
+          <br /><br />
+          <input
+            type="email"
+            name="name"
+            id="name"
+            placeholder="Your Email Address"
+          />
+          <br />
+          <br />
+          <label for="birthday">Start date:</label><br />
+          <input type="date" id="name" name="name" />
+          <br />
+          <label for="birthday">End date:</label><br />
+          <input type="date" id="name" name="name" />
+          <br />
+          <div>
+             
+            <p>Please select your gender:</p>
+             
+            <input type="radio" id="html" name="fav_language" value="HTML" />  
+            <label for="html" class="a">Male</label><br />
+              <input type="radio" id="css" name="fav_language" value="CSS" />  
+            <label for="css" class="a">Female</label><br />
+             
+            <input
+              type="radio"
+              id="javascript"
+              name="fav_language"
+              value="JavaScript"
+            />
+              <label for="javascript" class="a">Other</label>
+          </div>
+
+          <div>
+             
+            <p>Please select your favorite Fruits:</p>
+             
+            <input type="checkbox" id="abc" name="fav_language" value="HTML" />
+              <label for="html" class="a">Mango</label><br />
+             
+            <input type="checkbox" id="abc" name="fav_language" value="CSS" />  
+            <label for="css" class="a">Apple</label><br />
+             
+            <input type="checkbox" id="javascript" name="abc" value="Orange" />
+              <label for="javascript" class="a">JavaScript</label>
+          </div>
+          <br />
+
+          <label for="Website">Website to Advertise:</label><br />
+          <input type="text" id="name" name="name" />
+          <br />
+
+          <br />
+
+          <div>
+            <label for="Comment">Comments</label><br />
+            <textarea
+              name="bio"
+              id="bio"
+              cols="30"
+              rows="05"
+              placeholder="Type your message here..."
+            ></textarea>
+          </div>
+          <br />
+          <input
+            type="submit"
+            onclick="myFunction()"
+            value="Submit"
+            name="submit"
+            id="submit"
+          />
+
+          <script>
+            function myFunction() {
+              alert("Data Submitted Successfully");
+            }
+          </script>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
